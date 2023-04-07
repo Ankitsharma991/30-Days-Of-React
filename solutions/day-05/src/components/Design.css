@@ -1,0 +1,34 @@
+.mainDesign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(152, 216, 255, 0.6);
+    justify-content: center;
+}
+
+.inputBoxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.inputBox{
+    display: flex;
+    margin: 2rem 0.5rem;
+    height: 2.5rem;
+}
+
+.inputBox input{
+    border-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.btn{
+    height: 2.5rem;
+    width: 20rem;
+    margin-bottom: 50px;
+    border: 5px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(225, 74, 40);
+}

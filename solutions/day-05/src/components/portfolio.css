@@ -1,0 +1,38 @@
+.image {
+  margin: 30px;
+  margin-bottom: 10px;
+}
+.main-port {
+  margin: 30px;
+}
+
+.image img {
+  clip-path: circle(50% at 50% 50%);
+}
+.span {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.span img {
+  height: 18px;
+  width: 18px;
+  display: flex;
+  margin-left: 5px;
+  justify-content: center;
+}
+.skillsets {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.skill {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: rgba(47, 245, 255, 0.7);
+}
