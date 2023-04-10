@@ -1,18 +1,15 @@
 import React, { useState } from "react";
-// import { ReactDOM } from "react-dom";
 import "./ToggleState.css";
 import Image from "./pic.jpg";
 const ToggleState = () => {
   const [Bg, setBg] = useState(true);
 
-  // useEffect(() => {}, [Bg]);
-
+ 
   const changeState = () => {
     setBg(!Bg);
   };
-  // render() {
   return (
-    <div className={Bg ? "main" : "main-dark"}>
+    <div className={Bg ? "main-" : "main-dark"}>
       <div className={Bg ? "div-light" : "div-dark"}>
         <h1>Welcome to 30 Days Of React</h1>
         <h2>Getting Started</h2>
@@ -43,7 +40,6 @@ const ToggleState = () => {
       </footer>
     </div>
   );
-  // }
 };
 
 export default ToggleState;

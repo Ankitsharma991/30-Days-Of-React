@@ -1,0 +1,50 @@
+.image img {
+  height: 100px;
+  width: 200px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image-div {
+  height: 250px;
+  /* border: 1px solid black; */
+  justify-content: center;
+  width: 500px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px 5px rgba(135, 120, 120, 0.3);
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.main button {
+  margin: 20px;
+  height: 2.5rem;
+  width: 10rem;
+  border: 0;
+  background-color: aqua;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.details span {
+  font-weight: bold;
+  font-size: large;
+  margin-left: 2rem;
+}
+.details p {
+  margin: 0.2rem;
+}

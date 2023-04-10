@@ -1,9 +1,10 @@
 import ToggleState from "./ToggleState";
+import Card from "./Card";
 function App() {
   return (
     <div>
-      {/* <h1>This is State in React</h1> */}
       <ToggleState />
+      <Card />
     </div>
   );
 }
