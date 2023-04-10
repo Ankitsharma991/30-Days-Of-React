@@ -1,6 +1,7 @@
 // index.js
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
+import Event from "./Event";
 
 class App extends Component {
   state = {
@@ -78,10 +79,10 @@ class App extends Component {
             <input type="submit" value="Submit" />
           </div>
         </form>
+        <Event />
       </div>
     );
   }
 }
 
 export default App;
-
