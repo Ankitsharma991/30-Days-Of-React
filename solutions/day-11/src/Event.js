@@ -32,7 +32,7 @@ const Event = () => {
           }}
           onMouseEnter={changePosition}
         >
-          This is Event
+          30 Days of React
         </h1>
       </div>
     </div>
